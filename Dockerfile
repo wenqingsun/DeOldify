@@ -40,7 +40,7 @@ RUN pip install --upgrade pip \
 		opencv-python>=3.3.0.10 \
 		fastai==1.0.51
 
-ADD . /data/
+# ADD . /data/
 
 WORKDIR /data
 
